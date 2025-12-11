@@ -1,0 +1,29 @@
+# Python
+*.pyc
+__pycache__
+*~
+*.log
+*.sqlite3
+.env/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE-specific files (optional, uncomment as needed)
+# .vscode/        # VS Code
+# .idea/          # PyCharm/IntelliJ
+# *.swp           # Vim
+
+# Operating System files
+.DS_Store         # macOS
+
+# Django-specific
+/media            # User-uploaded media files (can get large, often stored elsewhere in production)
+/static           # Collected static files (can be regenerated with `collectstatic`)
+
+# Security/Secrets
+# local_settings.py # If you keep secrets here instead of .env
