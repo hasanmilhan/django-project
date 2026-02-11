@@ -27,3 +27,4 @@ venv.bak/
 
 # Security/Secrets
 # local_settings.py # If you keep secrets here instead of .env
+mysite_data.json
